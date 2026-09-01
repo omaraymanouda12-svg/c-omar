@@ -62,6 +62,16 @@ Console.WriteLine(copies);
 
 
 
+Console.WriteLine("Enter a number of pages: ");
+
+int userPages = Convert.ToInt32(Console.ReadLine());
+
+if (userPages >= 300)
+{ Console.WriteLine("long book"); }
+else
+{ Console.WriteLine("short book"); }
+
+//7th answer
 
 
 
