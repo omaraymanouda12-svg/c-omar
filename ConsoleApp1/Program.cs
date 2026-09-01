@@ -1,7 +1,7 @@
 ﻿
 
-int pages = 300;
-double number  = pages;
+int numpages = 300;
+double number  = numpages;
 Console.WriteLine(number);
 
 // first answer
@@ -74,7 +74,16 @@ else
 //7th answer
 
 
+Console.WriteLine("Enter a number of pages: ");
+
+int numPages = Convert.ToInt32(Console.ReadLine());
+
+bool isAvailable = true;
+
+if (pages2 > 300 && isAvailable == true)
+{
+    Console.WriteLine("You can borrow this book");
+}
 
 
-
-
+//8th answer
