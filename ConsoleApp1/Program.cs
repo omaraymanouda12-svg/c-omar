@@ -19,4 +19,25 @@ Console.WriteLine(pagesInt);
 
 //3rd answer
 
+string yearText = "2023";
+
+int year = int.Parse(yearText);
+Console.WriteLine(year);
+
+
+
+string badtext = "abc";
+
+if ( int.TryParse(badtext, out int result))
+{
+    Console.WriteLine(result);
+}
+else
+{
+    Console.WriteLine("Invalid number");
+}
+
+//4th answer
+
+
 
