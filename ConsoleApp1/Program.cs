@@ -12,4 +12,11 @@ Console.WriteLine(sprice);
 
 //2nd answer
 
+string pagesText = "464";
+
+int pagesInt = Convert.ToInt32(pagesText);
+Console.WriteLine(pagesInt);
+
+//3rd answer
+
 
