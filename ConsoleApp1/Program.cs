@@ -49,6 +49,17 @@ Console.WriteLine(pagesString.GetType());
 //5th answer
 
 
+int copies = 100;
+
+object copiesObject = copies;
+
+int copiesint = (int)copiesObject;
+
+Console.WriteLine(copiesint);
+Console.WriteLine(copies);
+
+//6th answer
+
 
 
 
