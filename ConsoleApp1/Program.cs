@@ -1,10 +1,9 @@
-﻿namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿
+
+int pages = 300;
+double number  = pages;
+Console.WriteLine(number);
+
+// first answer
+
+
